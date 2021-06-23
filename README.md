@@ -1,2 +1,0 @@
-# Open-Up
-Senior Project
