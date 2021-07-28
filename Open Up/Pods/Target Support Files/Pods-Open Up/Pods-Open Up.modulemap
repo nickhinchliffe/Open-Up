@@ -1,4 +1,4 @@
-framework module Pods_Open_Up {
+module Pods_Open_Up {
   umbrella header "Pods-Open Up-umbrella.h"
 
   export *

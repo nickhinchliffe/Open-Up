@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31BE7EC4C52142BE96530586 /* Pods_Open_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F0F3F388DDE2F47708CABF /* Pods_Open_Up.framework */; };
 		8A75AE762684F3EF0028E561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75AE752684F3EF0028E561 /* AppDelegate.swift */; };
 		8A75AE782684F3EF0028E561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75AE772684F3EF0028E561 /* SceneDelegate.swift */; };
 		8A75AE7A2684F3EF0028E561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75AE792684F3EF0028E561 /* ViewController.swift */; };
 		8A75AE7D2684F3EF0028E561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A75AE7B2684F3EF0028E561 /* Main.storyboard */; };
 		8A75AE7F2684F3F00028E561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A75AE7E2684F3F00028E561 /* Assets.xcassets */; };
 		8A75AE822684F3F00028E561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A75AE802684F3F00028E561 /* LaunchScreen.storyboard */; };
+		A81AA393DA791D45D657E7A8 /* libPods-Open Up.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34689A42BB1F067793474C7 /* libPods-Open Up.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		8A75AE7E2684F3F00028E561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A75AE812684F3F00028E561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A75AE832684F3F00028E561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0F0F3F388DDE2F47708CABF /* Pods_Open_Up.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Up.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F08D4214B43BBA72D9BD49 /* Pods-Open Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Up.debug.xcconfig"; path = "Target Support Files/Pods-Open Up/Pods-Open Up.debug.xcconfig"; sourceTree = "<group>"; };
+		F34689A42BB1F067793474C7 /* libPods-Open Up.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open Up.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BE7EC4C52142BE96530586 /* Pods_Open_Up.framework in Frameworks */,
+				A81AA393DA791D45D657E7A8 /* libPods-Open Up.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		CB2767F580C7AD71A390C62A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0F0F3F388DDE2F47708CABF /* Pods_Open_Up.framework */,
+				F34689A42BB1F067793474C7 /* libPods-Open Up.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,7 +103,6 @@
 				8A75AE6E2684F3EF0028E561 /* Sources */,
 				8A75AE6F2684F3EF0028E561 /* Frameworks */,
 				8A75AE702684F3EF0028E561 /* Resources */,
-				1BBD93DDBAC6571C50F58890 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,23 +159,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1BBD93DDBAC6571C50F58890 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Open Up/Pods-Open Up-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Open Up/Pods-Open Up-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Open Up/Pods-Open Up-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2C938F775B1E9E5E12D3EE40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
